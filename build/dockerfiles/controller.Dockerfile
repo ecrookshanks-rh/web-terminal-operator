@@ -10,7 +10,7 @@
 #
 
 # https://access.redhat.com/containers/?tab=tags#/registry.access.redhat.com/ubi9/go-toolset
-FROM registry.access.redhat.com/ubi9/go-toolset:1.24.6-1760420453 AS builder
+FROM registry.access.redhat.com/ubi9/go-toolset:1.25.7-1772454089 AS builder
 ENV GOPATH=/go/
 USER root
 
