@@ -1,3 +1,15 @@
+#### 1.16
+- Default tooling versions have been updated:
+  - oc v4.20.1 -> v4.21.4
+  - kubectl 1.33.3 -> 1.34.4
+  - kustomize v5.7.1 -> v5.8.1
+  - helm v3.17.1 -> v3.17.1
+  - knative v1.15.0-6 -> v1.15.0-6
+  - tekton v1.20.0 -> v1.20.0
+  - rhoas v0.53.0 -> v0.53.0
+  - submariner v0.21.0 -> v0.22.1
+  - virtctl v1.6.2 -> v1.7.1
+
 #### 1.15
 - Default tooling versions have been updated:
   - oc v4.19.9 -> v4.20.1
