@@ -1,3 +1,17 @@
+#### 1.17
+- Web terminal tooling memory limits have been increased (request: 128Mi -> 512Mi, limit: 512Mi -> 4Gi).
+- Web terminal exec now resolves user UID via SelfSubjectReview to support external authentication.
+- Default tooling versions have been updated:
+  - oc v4.21.4 -> v4.22.1
+  - kubectl 1.34.4 -> 1.35.2
+  - kustomize v5.8.1 -> v5.8.1
+  - helm v3.17.1 -> v3.20.2
+  - knative v1.15.0-6 -> v1.15.0-6
+  - tekton v1.20.0 -> v1.20.0
+  - rhoas v0.53.0 -> v0.53.0
+  - submariner v0.22.1 -> v0.24.0
+  - virtctl v1.7.1 -> v1.8.4
+
 #### 1.16
 - Default tooling versions have been updated:
   - oc v4.20.1 -> v4.21.4
